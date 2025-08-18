@@ -1,0 +1,7 @@
+public static void main(String[] args) {
+        int[] ar = {1, 2, 3, 4, 5};
+        int[] result = productExceptSelf(ar);
+        System.out.println("Input Array: " + Arrays.toString(ar));
+        System.out.println("Product Except Self: " + Arrays.toString(result));
+    }
+}
